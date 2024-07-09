@@ -1,0 +1,73 @@
+.auth-wrapper {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  padding-left: 40%;
+}
+
+ul.Link li a {
+  text-decoration: none; /* Remove underline */
+  color: rgb(26, 152, 255); /* Set text color to blue */
+  font-weight: bold; /* Make text bold */
+}
+.Follow{
+padding-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center; 
+text-align: center; 
+}
+.TERM{
+text-align: center;
+}
+
+.custom-background {
+background-image: url('background1.jpg'); 
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed; 
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
+color:white;
+}
+
+.SBOX{ 
+width: 300px;
+padding: 20px;
+background-color:whitesmoke;
+opacity:0.9;
+border-radius: 10px;
+box-shadow: 0 0 40px aqua;
+text-align: center;
+color:rgb(245, 47, 47);
+}
+.custom1-background {
+background-image: url('background1.jpg'); 
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.SBOX1{
+width: 700px;
+padding:40px;
+background-color:white;
+margin:auto;
+opacity:0.9;
+border-radius: 10px;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sign-in{
+color:rgb(245, 47, 47);
+}
+.form1{
+  margin-right: 15px;
+}
+.d2{
+  color:black;
+}

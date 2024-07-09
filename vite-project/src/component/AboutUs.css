@@ -1,0 +1,19 @@
+.about-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    color: black;
+  }
+  
+  .about-us-content {
+    flex: 1;
+    margin-right: 20px;
+    color: black;
+  }
+  
+  .about-us-image img {
+    width: 300px;
+    height: 300px;
+  }
+  

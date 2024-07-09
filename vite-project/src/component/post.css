@@ -1,0 +1,97 @@
+.create-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.upload-form input[type="file"] {
+    margin-bottom: 15px;
+}
+
+.upload-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.upload-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.upload-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-form button:hover {
+    background-color: #0056b3;
+}
+
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .image-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    width: 320px; /* Adjusted width to accommodate padding */
+    height: 400px; /* Adjusted height to accommodate padding and text content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Adjusted to space out the content evenly */
+    margin: 10px; /* Added margin for spacing between cards */
+  }
+  
+  .image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  
+  
+  .image-card button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .image-card button:hover {
+    background-color: #0056b3;
+  }
+  
